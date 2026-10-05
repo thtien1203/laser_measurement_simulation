@@ -31,3 +31,11 @@ The measured distance matches the true distance for targets up to about 6003.93 
 
 ## Solution
 Reduce the noise so the Argmax can still find the echo peak when the echo is weak
+
+## How to run
+- Install GNU Radio if it is not installed (on Ubuntu):
+sudo apt install gnuradio
+- Download `laser_measurement.grc` to your computer
+- Open the file in GNU Radio Companion, either by running this command in the folder that contains the file:
+gnuradio-companion laser_measurement.grc or by starting `gnuradio-companion` and choosing File → Open
+- Click Run to start the simulation.
